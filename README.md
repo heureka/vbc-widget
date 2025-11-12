@@ -1,2 +1,2 @@
-# vbc-widget
-Heureka's Verified by Customers Widget
+# VbC Widget
+🚧 Heureka's Verified by Customers Widget — Work in Progress
