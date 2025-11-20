@@ -1,0 +1,7 @@
+{
+  "name": "vbc-widget",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve ./script -l 8000"
+  }
+}
