@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "VbC Widget (Dev)",
+  "version": "0.0.0",
+  "description": "Dev loader for vbc-widget",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["widget.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
