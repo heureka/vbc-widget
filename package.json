@@ -15,7 +15,8 @@
   },
   "browserslist": [
     "> 0.5%",
-    "cover 95% in CZ",
+    "cover 90% in CZ",
+    "cover 90% in SK",
     "not dead"
   ]
 }
