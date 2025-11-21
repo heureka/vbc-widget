@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["widget.js"],
+      "js": ["gjs.js"],
       "run_at": "document_idle"
     }
   ]
