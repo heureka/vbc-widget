@@ -60,6 +60,5 @@
     iframe.src = "http://localhost:8000/old-widget.html";
   }
 
-  // eslint-disable-next-line compat/compat -- document.body is a property, not a method call; supported in all browsers
   document.body.appendChild(iframe);
 })();
