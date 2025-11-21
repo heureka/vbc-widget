@@ -2,6 +2,20 @@
   "name": "vbc-widget",
   "private": true,
   "scripts": {
-    "dev": "npx serve ./script -l 8000"
-  }
+    "dev": "npx serve ./script -l 8000",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-html": "^8.1.3",
+    "eslint-plugin-compat": "^6.0.2",
+    "globals": "^16.5.0"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "cover 95% in CZ",
+    "not dead"
+  ]
 }
